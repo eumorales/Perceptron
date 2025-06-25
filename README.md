@@ -1,17 +1,33 @@
-# O código
 
-> O presente código foi convertido de C# para Java, adicionamos as amostras vindo de arquivos também, agora elas não são mais inseridas manualmente.
+# 👋 Apresentação:
 
-# Objetivo
+> **Dupla:** Matheus Nogueira e Gilberto Morales
 
-> O objetivo desse código é fazer com que, com base em um gráfico de times azuis e vermelhos, o software receba amostras via arquivo.csv e saiba exatamente com base nos seus valores recebidos na amostra, de qual time é
+# 🚀 O software
 
-### Gráfico dos times
+> Este software que desenvolvemos é uma implementação em Java de um Perceptron, uma das formas mais fundamentais e didáticas de uma Rede Neural Artificial (RNA). Nosso objetivo principal é demonstrar como um modelo de aprendizado de máquina pode ser treinado para classificar dados em duas categorias distintas, com base em um conjunto de amostras.
+
+# 🎯 Objetivo 
+
+> O código foi convertido de C# para Java, adicionamos a funcionalidade de leitura de amostras via arquivo.csv, agora os dados não precisam ser mais inseridoss manualmente. <br>
+
+> ***No geral o software foi projetado para:*** <br> 
+>
+> **1- Receber amostras de treinamento via arquivo CSV:** Diferente de implementações anteriores onde os dados eram inseridos manualmente, agora o sistema lê as coordenadas (x, y) e a classificação correta (-1 ou 1) de cada amostra diretamente de um arquivo .csv. <br>
+>
+> **2- Aprender a classificar:** O Perceptron é treinado utilizando essas amostras para ajustar seus pesos internos. O objetivo do treinamento é que ele consiga identificar a "fronteira de decisão" entre os dois times. <br>
+>
+> **3- Classificar novas amostras:** Após o treinamento, o software será capaz de receber novos pontos (coordenadas x, y) e determinar, com base no que aprendeu, a qual time (Azul ou Vermelho) essa nova amostra pertence. <br>
+
+---
+
+# 📊 Gráfico dos times
 
 ![image](https://github.com/user-attachments/assets/760f578f-2381-4b29-a384-4e5abee6d245)
 
 
-### Amostras - amostras_saidas_problemaTimes.csv
+
+# 📁 Amostras de Treinamento: - amostras_saidas_problemaTimes.csv
 
 ```
 0.72;0.82;-1
@@ -48,6 +64,6 @@
 
 ```
 
-### Resultados
+# 💻 Resultados com base nas amostras do arquivo:
 
 ![image](https://github.com/user-attachments/assets/94e68015-b8c7-4bab-b6f7-84e1231b3073)
